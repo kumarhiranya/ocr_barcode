@@ -16,7 +16,7 @@ import cv2
 #	help = "path to the image file")
 #args = vars(ap.parse_args())
 
-args = {"image":'G:\\Desktop\\AI_ML\\Product detection\\barcodeImages\\300x0w.jpg'}
+args = {"image":'G:\Desktop\Github\coupon_recommendation\\barcodeImages\\300x0w.jpg'}
 image = cv2.imread(args["image"])
 cv2.imshow("Image", image)
 cv2.waitKey(0)
