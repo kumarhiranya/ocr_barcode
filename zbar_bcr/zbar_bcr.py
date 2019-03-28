@@ -2,13 +2,14 @@
 from pyzbar import pyzbar
 import argparse
 import cv2
- 
+
 # construct the argument parser and parse the arguments
 # ap = argparse.ArgumentParser()
 # ap.add_argument("-i", "--image", required=True,
 # 	help="path to input image")
 # args = vars(ap.parse_args())packages
-args = {"image":'G:\Desktop\Github\coupon_recommendation\\barcodeImages\\9a7bfd04f79886bbb02f4e5dee74619f.jpg'}
+path = "barcodeImages\\87454223.jpg"
+args = {"image": path}
 
 # load the input image
 image = cv2.imread(args["image"])
