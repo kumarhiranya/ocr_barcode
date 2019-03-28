@@ -8,7 +8,7 @@ import cv2
 # ap.add_argument("-i", "--image", required=True,
 # 	help="path to input image")
 # args = vars(ap.parse_args())packages
-args = {"image":'G:\\Desktop\\Github\\coupon_recommendation\\zbar_bcr\\barcodeImages\\7834511_1491781535892_620x454.jpg'}
+args = {"image":'G:\\Desktop\\Github\\coupon_recommendation\\zbar_bcr\\barcodeImages\\multi1.png'}
 
 # load the input image
 image = cv2.imread(args["image"])
